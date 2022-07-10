@@ -18,7 +18,6 @@ public class Client {
                 prettyJson = in.readLine();
                 System.out.println(prettyJson);
             } while (!prettyJson.endsWith("]"));
-//            System.out.println(in.readLine());
 
         } catch (IOException e) {
             e.printStackTrace();
