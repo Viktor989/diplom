@@ -6,6 +6,7 @@ import java.net.Socket;
 
 public class Client {
     public static void main(String[] args) {
+        // порт и хост
         int port = 8989;
         String host = "localhost";
 

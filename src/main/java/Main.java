@@ -10,7 +10,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        try (ServerSocket serverSocket = new ServerSocket(8989);) { // стартуем сервер один(!) раз
+        try (ServerSocket serverSocket = new ServerSocket(8989);) {
             while (true) { // в цикле(!) принимаем подключения
                 try (
                         Socket socket = serverSocket.accept();

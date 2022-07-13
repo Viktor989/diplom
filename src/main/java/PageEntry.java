@@ -14,6 +14,7 @@ public class PageEntry implements Comparable<PageEntry> {
         return Integer.compare(count, o.count);
     }
 
+
     @Override
     public String toString() {
         return "{Наименование документа = '" + pdfName + '\'' +

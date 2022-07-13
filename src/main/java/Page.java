@@ -1,6 +1,7 @@
 import java.util.Map;
 
 public class Page {
+    //
     private Map<String, PageEntry> pageEntries;
 
     public Page(Map<String, PageEntry> pageEntries) {

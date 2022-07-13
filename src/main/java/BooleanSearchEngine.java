@@ -38,7 +38,7 @@ public class BooleanSearchEngine implements SearchEngine {
         }
     }
 
-    // получение списка всех файлов pdf в дирректории pdfs
+    // получение списка всех файлов
     private static class ExtensionFilter implements FilenameFilter {
         private final String extension;
 
