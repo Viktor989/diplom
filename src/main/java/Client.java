@@ -13,7 +13,7 @@ public class Client {
         try (Socket socket = new Socket(host, port);
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
              BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
-            out.println("бизнес");
+            out.println("работа");
             String prettyJson;
             do {
                 prettyJson = in.readLine();

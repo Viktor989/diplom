@@ -16,7 +16,7 @@ public class BooleanSearchEngine implements SearchEngine {
         String text;
         String[] words;
         for (String pdf : listFile) {
-            var doc = new PdfDocument(new PdfReader("pdfs\\" + pdf));
+            var doc = new PdfDocument(new PdfReader("pdfs/" + pdf));
             int totalPage = doc.getNumberOfPages();
             for (int i = 1; i <= totalPage; i++) {
                 Map<String, Integer> freqs = new HashMap<>();
